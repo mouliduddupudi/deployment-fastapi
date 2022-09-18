@@ -4,3 +4,4 @@ uvicorn==0.18.2
 Pillow==9.2.0
 torch==1.12.1+cpu
 torchvision==0.13.1+cpu
+numpy==1.23.2
