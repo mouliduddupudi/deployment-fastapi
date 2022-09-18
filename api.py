@@ -75,6 +75,3 @@ async def predict(
         "prediction": result[0], 
         "confidence": result[1]
     }
-
-if __name__ == "__main__":
-    uvicorn.run(app, host='localhost', port=8000)
