@@ -41,7 +41,7 @@ def prediction(image_obj , idx_to_classes):
 
     pretrained_model = CNN(5) 
     pretrained_model.load_state_dict( 
-        torch.load('D:/projects/deployment/model.pth' , map_location=torch.device('cpu'))  
+        torch.load('model.pth' , map_location=torch.device('cpu'))  
     ) 
 
     im = image_obj 
